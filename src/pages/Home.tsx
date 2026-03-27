@@ -1,10 +1,8 @@
-function Home(){
+import Header from "../components/Header"
+export default function Home(){
     return(
-        <div>
-            <p className="text-red-600 bg-green-500">Hello World!</p>
-            <p>test commit text vfeodorova</p>
-        </div>
+       <div>
+            <Header />
+       </div>
     )
 }
-
-export default Home;
